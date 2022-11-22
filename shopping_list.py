@@ -42,6 +42,7 @@ while True:
             break
         else:
             print('Coloque o valor 1,2,3 ou 4.')
-    except:
+    except ValueError:
+        print('Digite uma das opções ou aperte 4 para sair!'):
         ...
         
